@@ -17,40 +17,19 @@ const newUserMailer = async (email, firstName) => {
     subject: "Welcome to MBtronics - Your Auto Repair Partner!",
     text: `Dear ${firstName},
 
-    Welcome to MBtronics! We're thrilled to have you join us to simplify your auto repair experience.
-    
-    Here's a quick guide to get started:
-    
-    1. Easy Booking: Schedule repairs effortlessly.
-    2. Real-time Updates: Stay informed about your vehicle.
-    3. Support: We're here to help.
-    4. Exclusive Savings: Look out for offers.
-    
-    Your feedback matters. Share your thoughts anytime.
-    
-    Thanks for choosing MBtronics. Let's keep your vehicle running smoothly!
+    Welcome to the Book Shop! Thank you for choosing us, and we're thrilled to have you join us to simplify your reading experience.
     
     Warm regards,
-    MBTRONICS 
+    THE BOOK SHOP 
     `,
     html: `<body>
     <p>Dear ${firstName},</p>
-    <p>Welcome to MBtronics! We're thrilled to have you join us to simplify your auto repair experience.</p>
-    
-    <p>Here's a quick guide to get started:</p>
-    <ol>
-        <li><strong>Easy Booking:</strong> Schedule repairs effortlessly.</li>
-        <li><strong>Real-time Updates:</strong> Stay informed about your vehicle.</li>
-        <li><strong>Support:</strong> We're here to help.</li>
-        <li><strong>Exclusive Savings:</strong> Look out for offers.</li>
-    </ol>
-    
-    <p>Your feedback matters. Share your thoughts anytime.</p>
-    
-    <p>Thanks for choosing MBtronics. Let's keep your vehicle running smoothly!</p>
-    
+    <p>
+    Welcome to the Book Shop! Thank you for choosing us, and we're thrilled to have you join us to simplify your reading experience.
+    </p>
+  
     <p>Warm regards,</p>
-    <strong>MBTRONICS</strong>
+    <strong>THE BOOK SHOP</strong>
  
 </body>
 `,
