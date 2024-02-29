@@ -14,7 +14,7 @@ const newUserMailer = async (email, firstName) => {
   const mailOptions = {
     from: "mbtronics",
     to: email,
-    subject: "Welcome to MBtronics - Your Auto Repair Partner!",
+    subject: "Welcome to The Book Shop - Your Authentic Knowledge Plug!",
     text: `Dear ${firstName},
 
     Welcome to the Book Shop! Thank you for choosing us, and we're thrilled to have you join us to simplify your reading experience.
